@@ -1,0 +1,22 @@
+@import "vendor";
+@import "variables";
+@import "base/mixins";
+@import "base/utilities";
+@import "base/typography";
+
+// Components
+// @import "components/thumbnails";
+// @import "components/pagination";
+@import "components/forms";
+// @import "components/buttons";
+// @import "components/boxes";
+
+// Comum para todas as páginas
+@import "common/common";
+
+// Estilos de cada página
+// @import "layout/login";
+
+// Responsivo
+// @import "responsive/topo";
+// @import "responsive/common";

@@ -1,0 +1,9 @@
+{
+  "name": "Treinaweb Admin",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.3",
+    "jquery": "~1.11.0"
+  },
+  "devDependencies": {}
+}
