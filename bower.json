@@ -1,9 +1,10 @@
 {
-  "name": "Treinaweb Admin",
+  "name": "Uniq",
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.3",
-    "jquery": "~1.11.0"
+    "jquery": "~1.11.0",
+    "jquery-easing": "*"
   },
   "devDependencies": {}
 }

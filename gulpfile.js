@@ -28,17 +28,6 @@ gulp.task('sass', function () {
     .pipe(reload({stream:true}));
 });
 
-// gulp.task('sass-vendor', function () {
-//   gulp.src('assets/sass/vendor.scss')
-//   	.pipe(sourcemaps.init())
-//     .pipe(sass({
-//     	// outputStyle: 'compressed',
-//     }).on('error', sass.logError))
-//     .pipe(sourcemaps.write('./'))
-//     .pipe(gulp.dest('dist/css/vendor'))
-//     .pipe(reload({stream:true}));
-// });
-
 gulp.task('browser-sync', function() {
 
   browserSync({
@@ -53,19 +42,6 @@ gulp.task('bs-reload', function () {
   browserSync.reload();
 });
 
-// SVG
-// gulp.task('svgstore', function () {
-//   return gulp
-//   .src('dist/svg-icons/icons/*.svg')
-//   .pipe(svgmin({
-//     js2svg: {
-//       pretty: true
-//     }
-//   }))
-//   .pipe(svgstore())
-//   .pipe(gulp.dest('dist/svg-icons'));
-// });
-
 gulp.task('uglify',['concat'], function() {
   gulp.src('dist/js/main.js')
   .pipe(uglify('main.min.js'))
@@ -75,6 +51,7 @@ gulp.task('uglify',['concat'], function() {
 gulp.task('concat', function() {
   return gulp.src([
     'bower_components/jquery/dist/jquery.js',
+    'bower_components/jquery-easing/jquery.easing.js',
     'assets/js/main.js'
     ])
   .pipe(concat('main.js'))
@@ -85,7 +62,7 @@ gulp.task('concat', function() {
 gulp.task('watch', ['sass', 'browser-sync'], function () {
   gulp.watch(["assets/sass/**/*.scss"], ['sass']);
   gulp.watch("*.php", ['bs-reload']);
-  // gulp.watch("assets/js/main.js", ['concat', 'uglify']);
+  gulp.watch("assets/js/main.js", ['concat', 'uglify']);
 });
 
 

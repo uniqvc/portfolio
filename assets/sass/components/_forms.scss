@@ -1,4 +1,16 @@
 .form-control-inverse {
+	@include border-radius(0);
 	background: transparent;
+	border-width: 0;
 	border-bottom: 1px solid #B4B4B4;
+	color: #FFF;
+}
+
+.no-focus {
+
+	&:focus {
+		@include box-shadow(none);
+		outline: none;
+	}
+
 }

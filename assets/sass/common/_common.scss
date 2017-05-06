@@ -35,24 +35,91 @@ img {
 	padding-right: 42px;
 }
 
+body {
+
+	&.header-hidden {
+
+		&:not(.menu-opened) {
+
+			.header {
+				@include transform(translateY(-90px));
+			}
+
+		}
+
+	}
+
+	&:not(.menu-opened) {
+
+		&.header-white {
+
+			.header-logo > svg {
+				fill: #FFF;
+			}
+
+			.menu-hamburger-line {
+				background: #FFF;
+			}
+
+		}
+
+	}
+
+	&.menu-opened {
+
+		// &:before {
+		// 	@include size(100%);
+		// 	content: '';
+		// 	position: fixed;
+		// 	left: 0;
+		// 	top: 0;
+		// 	z-index: 1;
+		// 	background: rgba(#000, 0.8);
+		// }
+
+		.menu {
+			@include transform(translateZ(0));
+		}
+
+		.menu-hamburger-line {
+			background: #000;
+
+			&:first-child {
+				@include transform(translateY(7px));
+			}
+
+			&:last-child {
+				@include transform(translateY(-7px));
+			}
+
+		}
+		
+	}
+
+
+}
+
 //topo
 
 .header {
+	@include transition(all .6s cubic-bezier(.19,1,.22,1));
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 10;
 }
 
 .header-logo {
-	@include size(50px);
+	@include size(42px);
 	display: inline-block;
 	position: absolute;
-	top: 55px;
+	top: 35px;
 	left: 42px;
 
 	> svg {
-		fill: #FFF;
+		@include transition(.25s ease);
+		fill: #000;
 	}
 
 }
@@ -60,17 +127,44 @@ img {
 .main {
 
 	&-home {
+
+		&:before {
+			@include size(100%);
+			content: '';
+			background:rgba(#000, 0.5);
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 2;
+		}
+
 		width: 100%;
 		height: 478px;
-		background: url('#{$img-url}/bg-home.jpg') no-repeat;
-		background-attachment: fixed;
-		background-size: 100% auto;
-		display: table;
+		position: relative;
+		display: block;
+		overflow: hidden;
+
+		&-container {
+			width: 100%;
+			height: 100%;
+			display: table;
+		}
+	}
+
+	&-video {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 1;
 	}
 
 	&-title {
 		display: table-cell;
 		vertical-align: middle;
+		position: relative;
+		z-index: 2;	
 
 		&-description {
 			color: #FFF;
@@ -82,18 +176,57 @@ img {
 
 }
 
+//menu
+
+.menu {
+	@include transition(.8s cubic-bezier(.19,1,.22,1));
+	@include transform(translate3d(100%,0,0));
+	width: 50%;
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #FFF;
+	z-index: 10;
+
+	&-inner {
+		display: table;
+		width: 100%;
+		height: 100%;
+	}
+
+	&-links {
+		text-align: right;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0 38px;
+
+		> .menu-links-item {
+			font-size: 38px;
+			line-height: 2;
+		}
+
+	}
+
+}
+
+
 .menu-hamburger {
 	position: absolute;
-	top: 55px;
+	top: 35px;
 	right: 42px;
 	cursor: pointer;
+	z-index: 11;
 
 	&-line {
+		@include transition(.25s ease);
+		-webkit-transform-origin: 0 50%;
+		transform-origin: 0 50%;
 		width: 35px;
 		height: 5px;
 		top: 55px;
 		right: 42px;
-		background: #FFF;
+		background: #000;
 
 		&:first-child {
 			margin-bottom: 12px;
@@ -112,14 +245,15 @@ img {
 
 
 .quem-somos-text {
-	font-size: 32px;
+	font-size: 30px;
 	line-height: 1.7;
+	margin-bottom: 25px;
 }
 
 // A Equipe
 
 .section-equipe {
-	padding-bottom: 100px;
+	padding-bottom: 80px;
 }
 
 .equipe-item {
@@ -129,12 +263,14 @@ img {
 // Serviços 
 
 .section-servicos {
-	padding-bottom: 160px;
+	padding-top: 20px;
+	padding-bottom: 120px;
 }
 
 // Cases 
 
 .section-cases {
+	padding-top: 40px;
 	padding-bottom: 125px;
 }
 

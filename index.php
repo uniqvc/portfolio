@@ -2,9 +2,9 @@
 <html lang="pt-br">
 <?php include 'includes/head.php'; ?>
 
-<body>
-	<div class="header container-padding">
-		<a href="#" class="header-logo">
+<body class="header-white">
+	<div class="header container-padding" >
+		<a data-scrollto href="#main" class="header-logo">
 			<svg viewBox="0 0 369 369" enable-background="new 0 0 369 369">
 				<path d="M214.3,20.7V3c0-1.7-1.3-3-3-3h-84.2c-1.7,0-3,1.3-3,3v16.9c0,1.7,1.3,3,3,3c9.5,0.2,17.6,1.5,24.7,3.5
 				c1.6,0.4,2.9,2.2,2.9,3.9v239.9c0,35.7-18.1,64.7-52.5,64.7c-34.5,0-52.5-29-52.5-64.7V3c0-1.7-1.3-3-3-3H3C1.3,0,0,1.3,0,3v268.2
@@ -13,23 +13,39 @@
 				c0,1.7,1.3,3,3,3H366c1.7,0,3-1.3,3-3c0-29.6,0-268.9,0-268.9C368,43.4,322.6,0,266.8,0C243.3,0,231.6,7.7,214.3,20.7z"/>
 			</svg>
 		</a>
-		<div class="menu-hamburger" type="button">
+		<div class="menu-hamburger" type="button" onclick="document.body.classList.toggle('menu-opened')">
 			<div class="menu-hamburger-line"></div>
 			<div class="menu-hamburger-line"></div>
 		</div>
+		<nav class="menu">
+			<div class="menu-inner">
+				<ul class="menu-links list-unstyled">
+					<li class="menu-links-item"><a data-scrollto href="#uniq">A Uniq</a></li>
+					<li class="menu-links-item"><a data-scrollto href="#nossosServicos">Nossos serviços</a></li>
+					<li class="menu-links-item"><a data-scrollto href="#cases">Cases</a></li>
+					<li class="menu-links-item"><a data-scrollto href="#contato">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
 	</div>
-
-	<main class="main main-home container-padding">
-		<div class="main-title">
-			<h1 class="text-inverse text-serif">Be Uniq</h1>
-			<p class="main-title-description text-sans-serif">Faça o que você ama</p>
+	
+	<main id="main" class="main main-home container-padding" data-header-white>
+		<div class="main-home-container">
+			<video class="main-video" src="dist/videos/home.mp4" autoplay="autoplay" loop></video>
+			<div class="main-title">
+				<h1 class="text-inverse text-serif">Be Uniq</h1>
+				<p class="main-title-description text-sans-serif">Faça o que você ama</p>
+			</div>
 		</div>
 	</main>
 
-	<section class="section-default section-quem-somos container-padding">
+	<section id="uniq" class="section-default section-quem-somos container-padding">
 		<div class="row">
-			<div class="col-xs-8">
-				<p class="quem-somos-text">Somos uma agência digital, especializada em trazer soluções criativas para os nossos clientes com o objetivo de atingir suas metas e objetivos superando suas expectativas. Podemos ajudar através de consultoria, visão estratégica, web design, desenvolvimento, marketing digital e aplicações web. Nosso compromisso com a excelência em tudo o que fazemos é um dos atributos para tornar cada projeto único. Nós adoraríamos ouvir sobre seus desafios e explicar as possibilidades. Podemos também tomar uma bela xícara de café então porque não nos ligar ou <a href="#" class="link-underlined">enviar uma mensagem?</a></p>
+			<div class="col-sm-8">
+				<p class="quem-somos-text">Somos uma agência digital, especializada em trazer soluções criativas para os nossos clientes com o objetivo de atingir suas metas e objetivos superando suas expectativas. Podemos ajudar através de consultoria, visão estratégica, web design, desenvolvimento, marketing digital e aplicações web.</p>
+				<p class="quem-somos-text">
+					 Nosso compromisso com a excelência em tudo o que fazemos é um dos atributos para tornar cada projeto único. Nós adoraríamos ouvir sobre seus desafios e explicar as possibilidades. Podemos também tomar uma bela xícara de café então porque não nos ligar ou <a data-scrollto href="#contato" class="link-underlined">enviar uma mensagem?</a>
+				</p>
 			</div>
 		</div>
 	</section>
@@ -37,17 +53,17 @@
 	<section class="section-default section-equipe container-padding">
 		<h2 class="h2 text-uppercase">A Equipe</h2>
 		<div class="row">
-			<div class="col-xs-3 equipe-item">
+			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
 				<img src="dist/images/profile.jpg" alt="Rick Sahara">
 				<h3 class="h3 text-serif">Ricki Sahara</h3>
 				<p class="text-large">Aventureiro por natureza, valoriza a simplicidade, mas não o simplismo. Interesse por áreas relacionadas à Interação humano-computador e Filosofia.</p>
 			</div>
-			<div class="col-xs-3 equipe-item">
+			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
 				<img src="dist/images/profile.jpg" alt="Rick Sahara">
 				<h3 class="h3 text-serif">Ricki Sahara</h3>
 				<p class="text-large">Aventureiro por natureza, valoriza a simplicidade, mas não o simplismo. Interesse por áreas relacionadas à Interação humano-computador e Filosofia.</p>
 			</div>
-			<div class="col-xs-3 equipe-item">
+			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
 				<img src="dist/images/profile.jpg" alt="Rick Sahara">
 				<h3 class="h3 text-serif">Ricki Sahara</h3>
 				<p class="text-large">Aventureiro por natureza, valoriza a simplicidade, mas não o simplismo. Interesse por áreas relacionadas à Interação humano-computador e Filosofia.</p>
@@ -55,10 +71,10 @@
 		</div>
 	</section>
 
-	<section class="section-default section-servicos container-padding">
+	<section id="nossosServicos" class="section-default section-servicos container-padding">
 		<h2 class="h2 text-uppercase">Serviços</h2>
 		<div class="row">
-			<div class="col-xs-3">
+			<div class="servicos-item col-sm-6 col-md-3">
 				<h3 class="h3 text-serif">Website</h3>
 				<ul class="list-unstyled text-large">
 					<li>Desenvolvimento</li>
@@ -67,7 +83,7 @@
 					<li>Desenv. Back-end</li>
 				</ul>
 			</div>
-			<div class="col-xs-3">
+			<div class="servicos-item col-sm-6 col-md-3">
 				<h3 class="h3 text-serif">Marketing</h3>
 				<ul class="list-unstyled text-large">
 					<li>Marketing Digital</li>
@@ -76,7 +92,7 @@
 					<li>Analytics</li>
 				</ul>
 			</div>
-			<div class="col-xs-3">
+			<div class="servicos-item col-sm-6 col-md-3">
 				<h3 class="h3 text-serif">Aplicativo</h3>
 				<ul class="list-unstyled text-large">
 					<li>Desenvolvimento</li>
@@ -84,7 +100,7 @@
 					<li>Progressive Web Apps</li>
 				</ul>
 			</div>
-			<div class="col-xs-3">
+			<div class="servicos-item col-sm-6 col-md-3">
 				<h3 class="h3 text-serif">UX Design</h3>
 				<ul class="list-unstyled text-large">
 					<li>Pesquisa com usuários</li>
@@ -97,7 +113,7 @@
 
 	</section>
 
-	<section class="section-default section-cases container-padding home-cases">
+	<section id="cases" class="section-default section-cases container-padding home-cases">
 		<h2 class="h2 text-uppercase">Cases</h2>
 		<ul class="list-unstyled">
 			<li>
@@ -155,27 +171,34 @@
 		</ul>
 	</section>
 
-	<footer class="footer container-padding">
+	<footer id="contato" class="footer container-padding" data-header-white>
 		<h2 class="h3 text-inverse text-serif">Contato</h2>
 		<div class="row">
-			<div class="col-xs-4">
+			<div class="footer-telefone col-sm-4">
 				<h3 class="h2 text-inverse text-uppercase">Telefone</h3>
-				<p class="footer-phone text-inverse">11 99119-3047 - Ricki</p>
-				<p class="footer-phone text-inverse">11 994077776 - Erick</p>
-				<p class="footer-phone text-inverse">11 94763-5258 - Fernando</p>
+				<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11991193047">11 99119-3047</a> - Ricki</p>
+				<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11994077776">11 994077776</a> - Erick</p>
+				<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11947635258">11 94763-5258</a> - Fernando</p>
 			</div>
-			<div class="col-xs-8">
+			<div class="footer-mensagem col-sm-6">
 				<h3 class="h2 text-inverse text-uppercase">Deixe um mensagem</h3>
 				<form id="formContato" name="formContato" class="form-contato" action="#" method="post">
 					<div class="form-group"> 
 						<label for="email" class="sr-only">E-mail</label> 
-						<input type="email" class="form-control form-control-inverse" id="exampleInputEmail1" placeholder="E-mail"> 
+						<input type="email" class="form-control form-control input-lg form-control-inverse no-focus" id="email" placeholder="E-mail" required> 
+					</div>
+					<div class="form-group"> 
+						<label for="msg" class="sr-only">Mensagem</label>
+						<textarea name="" id="msg" cols="30" rows="10" class="form-control form-control-inverse input-lg no-focus" placeholder="Digite sua mensagem..." required></textarea>
+					</div>
+					<div class="form-group"> 
+						<button class="btn btn-inverse btn-lg" type="submit">Enviar mensagem</button>
 					</div>
 				</form>
 			</div>
 		</div>
 	</footer>
 
-	<script src="dist/js/main.min.js"></script>
+	<script src="dist/js/main.js"></script>
 </body>
 </html>

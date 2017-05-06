@@ -33,12 +33,27 @@ $font-path: '../fonts';
 	font-weight: 900;
 }
 
+a:hover, a:focus {
+	@include transition(color .15s ease);
+}
+
 .link-underlined {
 	text-decoration: underline;
 
 	&:hover {
 		text-decoration: underline;
 	}
+
+}
+
+.link-tel {
+	color: #B4B4B4;
+	pointer-events: none;
+
+	@include mq(screen-xs) {
+		pointer-events: all;
+	}
+
 
 }
 

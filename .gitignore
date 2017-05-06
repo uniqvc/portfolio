@@ -1,4 +1,5 @@
 node_modules/
 bower_components/
+briefing/
 .sass-cache
 config.rb
