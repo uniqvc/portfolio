@@ -67,6 +67,30 @@ UNIQ.ui.scrollHeader = (function() {
 
 }());
 
+UNIQ.ui.contact = (function() {
+
+	$("#formContato").on("submit",function(){
+		$('#formContato button').attr('disabled',true);
+		$.ajax({
+			url : 'contact.php'
+			, data : $(this).serialize()
+			, type : 'POST'
+			, success : function(data)
+			{
+				swal({
+				  title: "Enviado"
+				  , text: "Obrigado por enviar sua mensagem!"
+				  , type: "success"
+				}, function(){
+					location.href = location.href;
+				});
+			}
+		});
+		return false;
+	});
+
+});
+
 UNIQ.ui.scrollTo = (function() {
 	var elements = $('[data-scrollto]');
 
@@ -95,6 +119,7 @@ UNIQ.ui.scrollTo = (function() {
 
 UNIQ.ui.scrollHeader.init();
 UNIQ.ui.scrollTo.init();
+UNIQ.ui.contact.init();
 
 // $('.scroll-to').on('click', function(e) {
 // 	var id = $(this).attr('data-id');
