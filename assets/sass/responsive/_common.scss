@@ -128,7 +128,7 @@
 
 @include mq(screen-xs-l) {
 
-	.main-home {
+	.main {
 		height: 80vh;
 	}
 
@@ -154,7 +154,7 @@
 
 @include mq(screen-sm) {
 
-	.main-home {
+	.main {
 		height: 428px;
 	}
 

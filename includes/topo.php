@@ -1,47 +1,25 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-      <a href="#" class="btn-menu-mobile visible-xs-block" role="button">
-        <span class="sr-only">Toggle Menu</span>
-        <svg class="btn-menu-mobile-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#navicon"></use>
-        </svg>
-      </a>
-			<a class="navbar-brand" href="home.php">
-				<span class="sr-only">Treinaweb | Admin</span>
-				<img class="tw-logo" src="dist/images/treinaweb.svg" width="164" alt="Treinaweb | Admin">
-			</a>
-		</div>
-		<ul class="nav navbar-nav navbar-nav-profile navbar-right">
-
-          <li class="dropdown navbar-profile">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">
-              <img src="dist/images/profile.jpg" class="navbar-profile-avatar" alt="Erick Sahara">
-              <dl class="navbar-profile-info hidden-xs">
-              	<dt>Erick Sahara</dt>
-              	<dd><span class="label label-info">Admin</span></dd>
-              </dl>
-              <svg class="svg-arrow">
-              	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret-down"></use>
-              </svg>
-            </a>
-
-            <ul class="dropdown-menu" role="menu">
-
-              <li>
-                <a href="#">Configurações</a>
-              </li>
-
-              <li class="divider"></li>
-
-              <li>
-                <a href="login.php">Logout</a>
-              </li>
-
-            </ul>
-
-          </li>
-
-        </ul>
+<div class="header container-padding" >
+	<a data-scrollto href="#main" class="header-logo">
+		<svg viewBox="0 0 369 369" enable-background="new 0 0 369 369">
+			<path d="M214.3,20.7V3c0-1.7-1.3-3-3-3h-84.2c-1.7,0-3,1.3-3,3v16.9c0,1.7,1.3,3,3,3c9.5,0.2,17.6,1.5,24.7,3.5
+			c1.6,0.4,2.9,2.2,2.9,3.9v239.9c0,35.7-18.1,64.7-52.5,64.7c-34.5,0-52.5-29-52.5-64.7V3c0-1.7-1.3-3-3-3H3C1.3,0,0,1.3,0,3v268.2
+			c0.5,54,46.2,97.8,102.2,97.8c23.5,0,35.1-7.7,52.4-20.6V366c0,1.7,1.3,3,3,3h84.2c1.7,0,3-1.3,3-3v-16.9c0-1.7-1.3-3-3-3
+			c-9.4-0.2-17.5-1.5-24.5-3.4c-1.6-0.4-2.9-2.2-2.9-3.9v-240c0-35.7,18.1-64.7,52.5-64.7c34.5,0,52.5,29,52.5,64.7V366
+			c0,1.7,1.3,3,3,3H366c1.7,0,3-1.3,3-3c0-29.6,0-268.9,0-268.9C368,43.4,322.6,0,266.8,0C243.3,0,231.6,7.7,214.3,20.7z"/>
+		</svg>
+	</a>
+	<div class="menu-hamburger" type="button" onclick="document.body.classList.toggle('menu-opened')">
+		<div class="menu-hamburger-line"></div>
+		<div class="menu-hamburger-line"></div>
 	</div>
-</nav>
+	<nav class="menu">
+		<div class="menu-inner">
+			<ul class="menu-links list-unstyled">
+				<li class="menu-links-item"><a data-scrollto href="#uniq">A Uniq</a></li>
+				<li class="menu-links-item"><a data-scrollto href="#nossosServicos">Nossos serviços</a></li>
+				<!-- <li class="menu-links-item"><a data-scrollto href="#cases">Cases</a></li> -->
+				<li class="menu-links-item"><a data-scrollto href="#contato">Contato</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>

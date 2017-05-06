@@ -125,30 +125,26 @@ body {
 }
 
 .main {
+	width: 100%;
+	height: 478px;
+	position: relative;
+	display: block;
+	overflow: hidden;
 
-	&-home {
+	&:before {
+		@include size(100%);
+		content: '';
+		background:rgba(#000, 0.5);
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 2;
+	}
 
-		&:before {
-			@include size(100%);
-			content: '';
-			background:rgba(#000, 0.5);
-			position: absolute;
-			left: 0;
-			top: 0;
-			z-index: 2;
-		}
-
+	&-container {
 		width: 100%;
-		height: 478px;
-		position: relative;
-		display: block;
-		overflow: hidden;
-
-		&-container {
-			width: 100%;
-			height: 100%;
-			display: table;
-		}
+		height: 100%;
+		display: table;
 	}
 
 	&-video {
@@ -254,6 +250,11 @@ body {
 
 .section-equipe {
 	padding-bottom: 80px;
+
+	img {
+		@include size(200px);
+	}
+
 }
 
 .equipe-item {
@@ -272,6 +273,39 @@ body {
 .section-cases {
 	padding-top: 40px;
 	padding-bottom: 125px;
+}
+
+
+// Case
+
+.main-case {
+	
+	.main-title {
+		vertical-align: bottom;
+		padding-bottom: 60px;
+	}	
+
+}
+
+.section-case {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.case-detail {
+	padding-top: 84px;
+
+	&-item {
+		font-size: 18px;
+		color: #000;
+
+		&-desc {
+			margin-right: 10px;
+			color: #a1a1a1;
+		}
+
+	}
+
 }
 
 .home-cases ul { display: table; max-width: 1235px; margin-top: 30px; }

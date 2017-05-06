@@ -2299,6 +2299,10 @@ a:hover, a:focus {
   font-size: 18px;
   line-height: 1.85; }
 
+.text-xlarge {
+  font-size: 21px;
+  line-height: 1.9; }
+
 .h2 {
   margin-bottom: 42px; }
 
@@ -2407,13 +2411,13 @@ body.menu-opened .menu-hamburger-line {
     transition: 0.25s ease;
     fill: #000; }
 
-.main-home {
+.main {
   width: 100%;
   height: 478px;
   position: relative;
   display: block;
   overflow: hidden; }
-  .main-home:before {
+  .main:before {
     width: 100%;
     height: 100%;
     content: '';
@@ -2422,28 +2426,26 @@ body.menu-opened .menu-hamburger-line {
     left: 0;
     top: 0;
     z-index: 2; }
-  .main-home-container {
+  .main-container {
     width: 100%;
     height: 100%;
     display: table; }
-
-.main-video {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1; }
-
-.main-title {
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-  z-index: 2; }
-  .main-title-description {
-    color: #FFF;
-    font-size: 40px;
-    font-weight: 200; }
+  .main-video {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; }
+  .main-title {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2; }
+    .main-title-description {
+      color: #FFF;
+      font-size: 40px;
+      font-weight: 200; }
 
 .menu {
   -webkit-transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
@@ -2504,6 +2506,9 @@ body.menu-opened .menu-hamburger-line {
 
 .section-equipe {
   padding-bottom: 80px; }
+  .section-equipe img {
+    width: 200px;
+    height: 200px; }
 
 .equipe-item {
   padding-right: 5%; }
@@ -2515,6 +2520,23 @@ body.menu-opened .menu-hamburger-line {
 .section-cases {
   padding-top: 40px;
   padding-bottom: 125px; }
+
+.main-case .main-title {
+  vertical-align: bottom;
+  padding-bottom: 60px; }
+
+.section-case {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.case-detail {
+  padding-top: 84px; }
+  .case-detail-item {
+    font-size: 18px;
+    color: #000; }
+    .case-detail-item-desc {
+      margin-right: 10px;
+      color: #a1a1a1; }
 
 .home-cases ul {
   display: table;
@@ -2670,6 +2692,14 @@ body.menu-opened .menu-hamburger-line {
   resize: none;
   border-width: 1px; }
 
+.main-kei .main-img {
+  width: 100%;
+  height: 100%;
+  background: url("../images/cases/kei/bg-main.jpg");
+  position: absolute;
+  left: 0;
+  top: 0; }
+
 @media (max-width: 767px) {
   h1, .h1 {
     font-size: 42px; }
@@ -2745,7 +2775,7 @@ body.menu-opened .menu-hamburger-line {
       padding-bottom: 30px; } }
 
 @media (max-width: 767px) and (orientation: landscape) {
-  .main-home {
+  .main {
     height: 80vh; }
   .section-quem-somos {
     padding-top: 30px; }
@@ -2756,7 +2786,7 @@ body.menu-opened .menu-hamburger-line {
       text-align: left; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .main-home {
+  .main {
     height: 428px; }
   .section-cases {
     width: 100%; }
