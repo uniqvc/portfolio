@@ -52,6 +52,7 @@ gulp.task('concat', function() {
   return gulp.src([
     'bower_components/jquery/dist/jquery.js',
     'bower_components/jquery-easing/jquery.easing.js',
+    'bower_components/sweetalert/dist/sweetalert.min.js',
     'assets/js/main.js'
     ])
   .pipe(concat('main.js'))

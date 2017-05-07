@@ -12,11 +12,11 @@
 			<form id="formContato" name="formContato" class="form-contato" action="#" method="post">
 				<div class="form-group"> 
 					<label for="email" class="sr-only">E-mail</label> 
-					<input type="email" class="form-control form-control input-lg form-control-inverse no-focus" id="email" placeholder="E-mail" required> 
+					<input type="email" name="email" class="form-control form-control input-lg form-control-inverse no-focus" id="email" placeholder="E-mail" required> 
 				</div>
 				<div class="form-group"> 
 					<label for="msg" class="sr-only">Mensagem</label>
-					<textarea name="" id="msg" cols="30" rows="10" class="form-control form-control-inverse input-lg no-focus" placeholder="Digite sua mensagem..." required></textarea>
+					<textarea name="mensagem" id="msg" cols="30" rows="10" class="form-control form-control-inverse input-lg no-focus" placeholder="Digite sua mensagem..." required></textarea>
 				</div>
 				<div class="form-group"> 
 					<button class="btn btn-inverse btn-lg" type="submit">Enviar mensagem</button>
