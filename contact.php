@@ -67,7 +67,7 @@
 	//Username to use for SMTP authentication - use full email address for gmail
 	$mail->Username = "servidoruniq@gmail.com";
 	//Password to use for SMTP authentication
-	$mail->Password = "MeMB901D";
+	$mail->Password = GMAIL_PASSWORD;
 	//Set who the message is to be sent from
 	$mail->setFrom('servidoruniq@gmail.com', 'Site Uniq');
 	//Set an alternative reply-to address

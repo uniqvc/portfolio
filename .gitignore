@@ -3,3 +3,4 @@ bower_components/
 briefing/
 .sass-cache
 config.rb
+config.php
