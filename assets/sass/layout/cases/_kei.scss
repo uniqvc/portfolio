@@ -1,0 +1,11 @@
+.main-kei {
+
+	.main-img {
+		@include size(100%);
+		background: url('../images/cases/kei/bg-main.jpg');
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+}

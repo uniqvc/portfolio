@@ -1,4 +1,5 @@
 @import "vendor";
+@import "vendor/sweetalert";
 @import "variables";
 @import "base/mixins";
 @import "base/utilities";
@@ -16,6 +17,7 @@
 
 // Estilos de cada página
 @import "layout/home";
+@import "layout/cases/kei";
 
 // Responsivo
 // @import "responsive/topo";
