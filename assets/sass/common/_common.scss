@@ -126,7 +126,7 @@ body {
 
 .main {
 	width: 100%;
-	height: 478px;
+	height: 70vh;
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -289,11 +289,11 @@ body {
 
 .section-case {
 	padding-top: 70px;
-	padding-bottom: 70px;
 }
 
 .case-detail {
 	padding-top: 84px;
+	padding-bottom: 84px;
 
 	&-item {
 		font-size: 18px;
@@ -302,6 +302,128 @@ body {
 		&-desc {
 			margin-right: 10px;
 			color: #a1a1a1;
+		}
+
+	}
+
+}
+
+.case-gif {
+
+	.case-gif-wrapper {
+		display: table;
+		width: 100%;
+	}
+
+	.case-gif-item {
+		width: 50%;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+}
+
+.case-block {
+	margin-left: -70px;
+	margin-right: -70px;
+
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+	&-item {
+		position: relative;
+		margin-left: -15px;
+		margin-right: -15px;
+
+		&-inner {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			white-space: nowrap;
+			overflow: hidden;
+
+			> span {
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 0;
+				margin: 0;
+				background-color: #253746;
+
+				> img {
+					width: 100%;
+					height: auto;
+
+				}
+
+
+			}
+
+		}
+
+		&:after {
+			content: '';
+			display: block;
+			position: relative;
+			z-index: -1;
+			padding-bottom: 66%;
+		}
+
+	}
+
+}
+
+.case-preview {
+	width: 100%;
+	height: 324px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: relative;
+	display: block;
+
+	&:before {
+		width: 100%;
+		height: 100%;
+		content: '';
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	> .case-preview-label {
+		margin-top: 0;
+		position: relative;
+
+		svg {
+			margin-left: 12px;
+			width: 14px;
+			vertical-align: middle;
+			position: relative;
+			top: -3px;
+		}
+
+	}
+
+	&-info {
+		position: relative;
+
+		> .title {
+			font-size: 40px;
+		}
+
+		> .description {
+			font-weight: 200;
+			font-size: 30px;
 		}
 
 	}
@@ -366,4 +488,20 @@ body {
 .footer-phone {
 	font-size: 20px;
 	color: #B4B4B4;
+}
+
+.footer-mensagem {
+
+	.h2 {
+		color: #B4B4B4;
+	}
+
+}
+
+.footer-telefone {
+
+	.h2 {
+		color: #B4B4B4;
+	}
+	
 }

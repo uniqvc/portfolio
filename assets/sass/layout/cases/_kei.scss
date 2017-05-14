@@ -9,3 +9,46 @@
 	}
 
 }
+
+.case-gif-kei {
+	margin-bottom: 70px;
+
+	.case-gif-item {
+		padding: 10px;
+	}
+
+	.case-gif-item:nth-child(1) {
+		background: #F6D3D4;
+	}
+
+	.case-gif-item:nth-child(2) {
+		background: #D7BCBD;
+	}
+
+}
+
+.case-block-kei {
+	margin-top: 70px;
+}
+
+.case-mockup-kei {
+	padding: 120px 0;
+	background:#F6DCDC;
+}
+
+.img-mockup-kei {
+	@include box-shadow(8px 7px 25px 2px rgba(0, 0, 0, 0.3));
+
+	&.destaque {
+		margin-bottom: 60px;
+	}
+
+}
+
+.case-preview-carol-monteiro {
+	background: url('../images/preview-carol-monteiro.jpg');
+	background-size: cover;
+	background-position: center center;
+
+}
+

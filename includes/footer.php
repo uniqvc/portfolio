@@ -1,5 +1,5 @@
 <footer id="contato" class="footer container-padding" data-header-white>
-	<h2 class="h3 text-inverse text-serif">Contato</h2>
+	<h2 class="h2 text-uppercase text-inverse">Contato</h2>
 	<div class="row">
 		<div class="footer-telefone col-sm-4">
 			<h3 class="h2 text-inverse text-uppercase">Telefone</h3>

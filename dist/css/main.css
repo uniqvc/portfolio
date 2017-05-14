@@ -3406,7 +3406,7 @@ body.menu-opened .menu-hamburger-line {
 
 .main {
   width: 100%;
-  height: 478px;
+  height: 70vh;
   position: relative;
   display: block;
   overflow: hidden; }
@@ -3519,17 +3519,98 @@ body.menu-opened .menu-hamburger-line {
   padding-bottom: 60px; }
 
 .section-case {
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 70px; }
 
 .case-detail {
-  padding-top: 84px; }
+  padding-top: 84px;
+  padding-bottom: 84px; }
   .case-detail-item {
     font-size: 18px;
     color: #000; }
     .case-detail-item-desc {
       margin-right: 10px;
       color: #a1a1a1; }
+
+.case-gif .case-gif-wrapper {
+  display: table;
+  width: 100%; }
+
+.case-gif .case-gif-item {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+.case-block {
+  margin-left: -70px;
+  margin-right: -70px; }
+  .case-block:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .case-block-item {
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px; }
+    .case-block-item-inner {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      white-space: nowrap;
+      overflow: hidden; }
+      .case-block-item-inner > span {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        margin: 0;
+        background-color: #253746; }
+        .case-block-item-inner > span > img {
+          width: 100%;
+          height: auto; }
+    .case-block-item:after {
+      content: '';
+      display: block;
+      position: relative;
+      z-index: -1;
+      padding-bottom: 66%; }
+
+.case-preview {
+  width: 100%;
+  height: 324px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+  display: block; }
+  .case-preview:before {
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .case-preview > .case-preview-label {
+    margin-top: 0;
+    position: relative; }
+    .case-preview > .case-preview-label svg {
+      margin-left: 12px;
+      width: 14px;
+      vertical-align: middle;
+      position: relative;
+      top: -3px; }
+  .case-preview-info {
+    position: relative; }
+    .case-preview-info > .title {
+      font-size: 40px; }
+    .case-preview-info > .description {
+      font-weight: 200;
+      font-size: 30px; }
 
 .home-cases ul {
   display: table;
@@ -3681,6 +3762,12 @@ body.menu-opened .menu-hamburger-line {
   font-size: 20px;
   color: #B4B4B4; }
 
+.footer-mensagem .h2 {
+  color: #B4B4B4; }
+
+.footer-telefone .h2 {
+  color: #B4B4B4; }
+
 .form-contato textarea {
   resize: none;
   border-width: 1px; }
@@ -3692,6 +3779,33 @@ body.menu-opened .menu-hamburger-line {
   position: absolute;
   left: 0;
   top: 0; }
+
+.case-gif-kei {
+  margin-bottom: 70px; }
+  .case-gif-kei .case-gif-item {
+    padding: 10px; }
+  .case-gif-kei .case-gif-item:nth-child(1) {
+    background: #F6D3D4; }
+  .case-gif-kei .case-gif-item:nth-child(2) {
+    background: #D7BCBD; }
+
+.case-block-kei {
+  margin-top: 70px; }
+
+.case-mockup-kei {
+  padding: 120px 0;
+  background: #F6DCDC; }
+
+.img-mockup-kei {
+  -webkit-box-shadow: 8px 7px 25px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 8px 7px 25px 2px rgba(0, 0, 0, 0.3); }
+  .img-mockup-kei.destaque {
+    margin-bottom: 60px; }
+
+.case-preview-carol-monteiro {
+  background: url("../images/preview-carol-monteiro.jpg");
+  background-size: cover;
+  background-position: center center; }
 
 @media (max-width: 767px) {
   h1, .h1 {
@@ -3765,7 +3879,13 @@ body.menu-opened .menu-hamburger-line {
     .footer .h2 {
       margin-bottom: 15px; }
     .footer .h3 {
-      padding-bottom: 30px; } }
+      padding-bottom: 30px; }
+  .main-case .main-title {
+    padding-bottom: 15px; }
+  .case-preview-info > .title {
+    font-size: 30px; }
+  .case-preview-info > .description {
+    font-size: 18px; } }
 
 @media (max-width: 767px) and (orientation: landscape) {
   .main {
@@ -3806,5 +3926,9 @@ body.menu-opened .menu-hamburger-line {
     .home-cases a {
       width: 300px;
       height: auto; } }
+
+@media (max-width: 767px) {
+  .img-mockup-kei {
+    margin-bottom: 60px; } }
 
 /*# sourceMappingURL=main.css.map */

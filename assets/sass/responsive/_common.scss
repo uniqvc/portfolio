@@ -124,6 +124,26 @@
 
 	}
 
+	.main-case {
+
+		.main-title {
+			padding-bottom: 15px;
+		}
+
+	}
+
+	.case-preview-info {
+
+		> .title {
+			font-size: 30px;
+		}
+
+		> .description {
+			font-size: 18px;
+		}
+		
+	}
+
 }
 
 @include mq(screen-xs-l) {
