@@ -1,0 +1,23 @@
+.main-carol-monteiro {
+
+	.main-img {
+		@include size(100%);
+		background: url('../images/cases/carol-monteiro/bg-main.jpg');
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+}
+
+.case-carol-monteiro-secondary {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #28c5c0;
+}
+
+.case-carol-monteiro-carrousel {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #ededed;
+}

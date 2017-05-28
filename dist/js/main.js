@@ -10651,7 +10651,6 @@ UNIQ.ui.scrollTo = (function() {
 
 UNIQ.ui.scrollHeader.init();
 UNIQ.ui.scrollTo.init();
-UNIQ.ui.contact.init();
 
 // $('.scroll-to').on('click', function(e) {
 // 	var id = $(this).attr('data-id');

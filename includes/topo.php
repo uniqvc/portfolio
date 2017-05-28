@@ -19,7 +19,7 @@
 			c0,1.7,1.3,3,3,3H366c1.7,0,3-1.3,3-3c0-29.6,0-268.9,0-268.9C368,43.4,322.6,0,266.8,0C243.3,0,231.6,7.7,214.3,20.7z"/>
 		</svg>
 	</a>
-	<div class="menu-hamburger" type="button" onclick="document.body.classList.toggle('menu-opened')">
+	<div class="menu-hamburger" role="button" onclick="document.body.classList.toggle('menu-opened')">
 		<div class="menu-hamburger-line"></div>
 		<div class="menu-hamburger-line"></div>
 	</div>

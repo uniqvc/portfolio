@@ -23,20 +23,20 @@
 					<p class="text-xlarge">
 						Explorar, desenvolver e transformar nossa curiosidade em algo concreto. Buscar dentro de nós, a essência, as virtudes que não sabemos que temos, mas se procuradas, e desenvolvidas veremos o quão belo e útil será para si e para outros.
 					</p>
-					<div class="case-detail list-unstyled">
+					<ul class="case-detail list-unstyled">
 						<li class="case-detail-item text-sans-serif"><span class="case-detail-item-desc">Cliente</span>Kei Espaço de Arte</li>
 						<li class="case-detail-item text-sans-serif"><span class="case-detail-item-desc">Produtos</span>Concepção, design de interface, UI/UX, design responsivo, desenvolvimento web.</li>
-					</div>
+					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="case-gif case-gif-kei">
 			<div class="case-gif-wrapper">
 				<div class="case-gif-item">
-					<img src="dist/images/cases/kei/gif_mac.gif" alt="">
+					<img src="dist/images/cases/kei/gif_mac.gif" alt="Keiarte - Desktop">
 				</div>
 				<div class="case-gif-item">
-					<img src="dist/images/cases/kei/iphone.gif" alt="">
+					<img src="dist/images/cases/kei/iphone.gif" alt="Keiarte - Mobile">
 				</div>
 			</div>
 		</div>
@@ -50,26 +50,26 @@
 			</div>
 		</div>
 
-		<div class="case-block case-block-kei ng-scope">
+		<div class="case-block case-block-kei">
 
 			<div class="col-sm-6">
-				<article class="case-block-item">
+				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="dist/images/cases/kei/item-1.jpg" alt="">
+							<img src="dist/images/cases/kei/item-1.jpg" alt="Kei Arte">
 						</span>
 					</div>
-				</article>
+				</div>
 			</div>
 
 			<div class="col-sm-6">
-				<article class="case-block-item">
+				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="dist/images/cases/kei/item-2.jpg" alt="">
+							<img src="dist/images/cases/kei/item-2.jpg" alt="Kei Arte">
 						</span>
 					</div>
-				</article>
+				</div>
 			</div>
 
 		</div>
@@ -79,13 +79,13 @@
 
 			<div class="container">
 				<div class="case-mockup-kei-col col-sm-12">
-					<img class="img-mockup-kei destaque" src="dist/images/cases/kei/item-3.jpg" alt="">
+					<img class="img-mockup-kei destaque" src="dist/images/cases/kei/item-3.jpg" alt="Keiarte - Mockup">
 				</div>
 				<div class="case-mockup-kei-col col-sm-6">
-					<img class="img-mockup-kei" src="dist/images/cases/kei/item-4.jpg" alt="">				
+					<img class="img-mockup-kei" src="dist/images/cases/kei/item-4.jpg" alt="Keiarte - Mockup">				
 				</div>
 				<div class="case-mockup-kei-col col-sm-6">
-					<img class="img-mockup-kei" src="dist/images/cases/kei/item-5.jpg" alt="">				
+					<img class="img-mockup-kei" src="dist/images/cases/kei/item-5.jpg" alt="Keiarte - Mockup">				
 				</div>
 			</div>
 		</div>
@@ -95,7 +95,7 @@
 				Próximo projeto
 
 				<svg width="18.12px" height="22.632px" viewBox="0 0 18.12 22.632">
-				<path fill="#FFF" d="M9.963,22.556l-1.978,0.076L7.955,0h2.057L9.963,22.556z M7.995,18.662L1.94,11.211L0,12.788l8,9.844
+					<path fill="#FFF" d="M9.963,22.556l-1.978,0.076L7.955,0h2.057L9.963,22.556z M7.995,18.662L1.94,11.211L0,12.788l8,9.844
 					L7.995,18.662z M18.12,12.906l-1.904-1.619L9.93,18.685l-0.008,3.871L18.12,12.906z"/>
 				</svg>
 			</h3>
