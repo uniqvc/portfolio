@@ -3811,6 +3811,7 @@ body.menu-opened .menu-hamburger-line {
   background: url("../images/cases/carol-monteiro/bg-main.jpg");
   position: absolute;
   left: 0;
+  background-size: cover;
   top: 0; }
 
 .case-carol-monteiro-secondary {
@@ -3818,10 +3819,51 @@ body.menu-opened .menu-hamburger-line {
   padding-bottom: 70px;
   background: #28c5c0; }
 
-.case-carol-monteiro-carrousel {
+.case-carol-monteiro-carousel {
   padding-top: 70px;
   padding-bottom: 70px;
   background: #ededed; }
+
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden; }
+
+.carousel-carol-monteiro {
+  width: 500%; }
+  .carousel-carol-monteiro:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .carousel-carol-monteiro > .carousel-carol-monteiro-item {
+    width: 20%;
+    float: left;
+    text-align: center; }
+
+.carousel-bullets {
+  text-align: center; }
+  .carousel-bullets > .item {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background: #000;
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle; }
+    .carousel-bullets > .item.is-active {
+      width: 24px;
+      height: 24px;
+      -webkit-border-radius: 24px;
+      -moz-border-radius: 24px;
+      -ms-border-radius: 24px;
+      border-radius: 24px; }
+
+.case-preview-viel {
+  background: url("../images/preview-viel");
+  background-size: cover;
+  background-position: center center; }
 
 @media (max-width: 767px) {
   h1, .h1 {

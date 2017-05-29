@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<?php include 'includes/head.php'; ?>
+<?php include '../includes/head.php'; ?>
 
 <body class="header-white">
-	<?php include 'includes/topo.php'; ?>
+	<?php include '../includes/topo.php'; ?>
 	
 	<main id="main" class="main main-case main-carol-monteiro container-padding" data-header-white>
 		<div class="main-container">
@@ -34,7 +34,7 @@
 				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="dist/images/cases/carol-monteiro/item-1.jpg" alt="Carol Monteiro">
+							<img src="../dist/images/cases/carol-monteiro/item-1.jpg" alt="Carol Monteiro">
 						</span>
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="dist/images/cases/carol-monteiro/item-2.jpg" alt="Carol Monteiro">
+							<img src="../dist/images/cases/carol-monteiro/item-2.jpg" alt="Carol Monteiro">
 						</span>
 					</div>
 				</div>
@@ -54,7 +54,7 @@
 				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="dist/images/cases/carol-monteiro/item-3.jpg" alt="Carol Monteiro">
+							<img src="../dist/images/cases/carol-monteiro/item-3.jpg" alt="Carol Monteiro">
 						</span>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="dist/images/cases/carol-monteiro/item-4.jpg" alt="Carol Monteiro">
+							<img src="../dist/images/cases/carol-monteiro/item-4.jpg" alt="Carol Monteiro">
 						</span>
 					</div>
 				</div>
@@ -81,15 +81,39 @@
 			</div>
 		</div>
 
-		<div class="case-block case-carol-monteiro-carrousel">
-			<div class="row">
-				<div class="col-xs-12">
-					a
+		<div class="case-block case-carol-monteiro-carousel">
+			<div class="col-xs-12">
+				<div class="carousel-wrapper">
+					<div class="carousel-carol-monteiro">
+						<div class="carousel-carol-monteiro-item">
+							<img src="../dist/images/cases/carol-monteiro/mockup-1.png" alt="Carol Monteiro - Mockup">
+						</div>
+						<div class="carousel-carol-monteiro-item">
+							<img src="../dist/images/cases/carol-monteiro/mockup-2.png" alt="Carol Monteiro - Mockup">
+						</div>
+						<div class="carousel-carol-monteiro-item">
+							<img src="../dist/images/cases/carol-monteiro/mockup-3.png" alt="Carol Monteiro - Mockup">
+						</div>
+						<div class="carousel-carol-monteiro-item">
+							<img src="../dist/images/cases/carol-monteiro/mockup-4.png" alt="Carol Monteiro - Mockup">
+						</div>
+						<div class="carousel-carol-monteiro-item">
+							<img src="../dist/images/cases/carol-monteiro/mockup-5.png" alt="Carol Monteiro - Mockup">
+						</div>
+					</div>
+
+					<div class="carousel-bullets">
+						<a href="#" class="item is-active"></a>
+						<a href="#" class="item"></a>
+						<a href="#" class="item"></a>
+						<a href="#" class="item"></a>
+						<a href="#" class="item"></a>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<a href="#" class="case-preview case-preview-carol-monteiro container-padding">
+		<a href="#" class="case-preview case-preview-viel container-padding">
 			<h3 class="case-preview-label h2 text-uppercase text-inverse">
 				Próximo projeto
 
@@ -100,15 +124,15 @@
 			</h3>
 
 			<div class="case-preview-info">
-				<h3 class="title text-inverse text-serif">Registre o início de uma vida</h3>
-				<p class="description text-sans-serif text-inverse">Carol Monteiro. Portfólio Digital</p>
+				<h3 class="title text-inverse text-serif">Sorria para sua vida</h3>
+				<p class="description text-sans-serif text-inverse">Viel. Website corporativo</p>
 			</div>
 		</a>
 
 	</section>
 
-	<?php include 'includes/footer.php'; ?>
+	<?php include '../includes/footer.php'; ?>
 
-	<script src="dist/js/main.js"></script>
+	<script src="../dist/js/main.js"></script>
 </body>
 </html>
