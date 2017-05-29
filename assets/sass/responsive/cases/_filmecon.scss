@@ -1,0 +1,17 @@
+@include mq(screen-xs) {
+
+	.case-block-filmecon {
+
+		> img {
+			float: none;
+		}
+		
+	}
+
+	.case-block-filmecon-text {
+		@include transform(translateY(0));
+		top: auto;
+		padding: 30px 15px;
+	}
+
+}

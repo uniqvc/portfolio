@@ -3578,6 +3578,18 @@ body.menu-opened .menu-hamburger-line {
     z-index: -1;
     padding-bottom: 66%; }
 
+.case-block-secondary {
+  display: table;
+  width: 100%; }
+  .case-block-secondary-img {
+    display: table-cell;
+    vertical-align: middle; }
+  .case-block-secondary-text {
+    background: #255080;
+    padding: 50px;
+    display: table-cell;
+    vertical-align: middle; }
+
 .case-preview {
   width: 100%;
   height: 324px;
@@ -3609,6 +3621,12 @@ body.menu-opened .menu-hamburger-line {
     .case-preview-info > .description {
       font-weight: 200;
       font-size: 30px; }
+
+.cover-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center; }
 
 .home-cases ul {
   display: table;
@@ -3840,7 +3858,8 @@ body.menu-opened .menu-hamburger-line {
     text-align: center; }
 
 .carousel-bullets {
-  text-align: center; }
+  text-align: center;
+  height: 26px; }
   .carousel-bullets > .item {
     width: 8px;
     height: 8px;
@@ -3851,7 +3870,9 @@ body.menu-opened .menu-hamburger-line {
     background: #000;
     display: inline-block;
     margin: 0 10px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    position: relative;
+    transition: .25s ease; }
     .carousel-bullets > .item.is-active {
       width: 24px;
       height: 24px;
@@ -3865,6 +3886,106 @@ body.menu-opened .menu-hamburger-line {
   background-size: cover;
   background-position: center center; }
 
+.main-viel .main-img {
+  width: 100%;
+  height: 100%;
+  background: url("../images/cases/viel/bg-main.jpg");
+  position: absolute;
+  left: 0;
+  background-size: cover;
+  top: 0; }
+
+.case-viel-secondary {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #0197a4; }
+
+.case-preview-filmecon {
+  background: url("../images/preview-filmecon.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+.case-block-viel .case-block-item-inner {
+  white-space: normal; }
+  .case-block-viel .case-block-item-inner .text-xlarge {
+    display: block;
+    padding: 80px; }
+  .case-block-viel .case-block-item-inner > span {
+    background: #255080; }
+
+.cover-img-viel-1 {
+  background: url("../images/cases/viel/item-2.jpg");
+  height: 625px;
+  background-size: cover;
+  background-position: center center; }
+
+.cover-img-viel-2 {
+  background: url("../images/cases/viel/item-3.jpg");
+  height: 745px;
+  background-size: cover;
+  background-position: center center; }
+
+.cover-img-viel-3 {
+  background: url("../images/cases/viel/item-4.jpg");
+  height: 1140px;
+  background-size: cover;
+  background-position: center center; }
+
+.main-filmecon .main-img {
+  width: 100%;
+  height: 100%;
+  background: url("../images/cases/filmecon/bg-main.jpg");
+  position: absolute;
+  left: 0;
+  background-size: cover;
+  top: 0; }
+
+.cover-img-filmecon-1 {
+  background: url("../images/cases/filmecon/item-1.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center center; }
+
+.cover-img-filmecon-2 {
+  background: url("../images/cases/filmecon/item-2.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center center; }
+
+.cover-img-filmecon-3 {
+  background: url("../images/cases/filmecon/item-4.jpg");
+  height: 420px;
+  background-size: cover;
+  background-position: center center; }
+
+.cover-img-filmecon-4 {
+  background: url("../images/cases/filmecon/item-5.jpg");
+  height: 420px;
+  background-size: cover;
+  background-position: center center; }
+
+.case-block-filmecon {
+  background: #faa324; }
+  .case-block-filmecon-text {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 720px;
+    position: relative;
+    top: 135px; }
+  .case-block-filmecon:after {
+    content: '';
+    clear: both;
+    display: table; }
+  .case-block-filmecon > img {
+    float: left; }
+
+.case-preview-kei {
+  background: url("../images/preview-kei.jpg");
+  background-size: cover;
+  background-position: center center; }
+
 @media (max-width: 767px) {
   h1, .h1 {
     font-size: 42px; }
@@ -3872,14 +3993,11 @@ body.menu-opened .menu-hamburger-line {
     font-size: 30px; }
   .menu {
     width: 100%; }
+  .main-home {
+    background: url("../images/poster.jpg");
+    background-size: cover; }
   .main-video {
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    left: 50%;
-    top: 0;
-    width: 300%; }
+    display: none; }
   .main-title-description {
     font-size: 28px; }
   .menu-links > .menu-links-item {
@@ -3943,7 +4061,13 @@ body.menu-opened .menu-hamburger-line {
   .case-preview-info > .title {
     font-size: 30px; }
   .case-preview-info > .description {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .case-block-secondary {
+    display: block; }
+  .case-block-secondary-img {
+    display: block; }
+  .case-block-secondary-text {
+    display: block; } }
 
 @media (max-width: 767px) and (orientation: landscape) {
   .main {
@@ -3988,5 +4112,16 @@ body.menu-opened .menu-hamburger-line {
 @media (max-width: 767px) {
   .img-mockup-kei {
     margin-bottom: 60px; } }
+
+@media (max-width: 767px) {
+  .case-block-filmecon > img {
+    float: none; }
+  .case-block-filmecon-text {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    top: auto;
+    padding: 30px 15px; } }
 
 /*# sourceMappingURL=main.css.map */

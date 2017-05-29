@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<?php include '../includes/head.php'; ?>
+<?php include 'includes/head.php'; ?>
 
 <body class="header-white">
-	<?php include '../includes/topo.php'; ?>
+	<?php include 'includes/topo.php'; ?>
 	
 	<main id="main" class="main main-case main-kei container-padding" data-header-white>
 		<div class="main-container">
@@ -33,10 +33,10 @@
 		<div class="case-gif case-gif-kei">
 			<div class="case-gif-wrapper">
 				<div class="case-gif-item">
-					<img src="../dist/images/cases/kei/gif_mac.gif" alt="Keiarte - Desktop">
+					<img src="dist/images/cases/kei/gif_mac.gif" alt="Keiarte - Desktop">
 				</div>
 				<div class="case-gif-item">
-					<img src="../dist/images/cases/kei/iphone.gif" alt="Keiarte - Mobile">
+					<img src="dist/images/cases/kei/iphone.gif" alt="Keiarte - Mobile">
 				</div>
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="../dist/images/cases/kei/item-1.jpg" alt="Kei Arte">
+							<img src="dist/images/cases/kei/item-1.jpg" alt="Kei Arte">
 						</span>
 					</div>
 				</div>
@@ -66,7 +66,7 @@
 				<div class="case-block-item">
 					<div class="case-block-item-inner">
 						<span>
-							<img src="../dist/images/cases/kei/item-2.jpg" alt="Kei Arte">
+							<img src="dist/images/cases/kei/item-2.jpg" alt="Kei Arte">
 						</span>
 					</div>
 				</div>
@@ -79,13 +79,13 @@
 
 			<div class="container">
 				<div class="case-mockup-kei-col col-sm-12">
-					<img class="img-mockup-kei destaque" src="../dist/images/cases/kei/item-3.jpg" alt="Keiarte - Mockup">
+					<img class="img-mockup-kei destaque" src="dist/images/cases/kei/item-3.jpg" alt="Keiarte - Mockup">
 				</div>
 				<div class="case-mockup-kei-col col-sm-6">
-					<img class="img-mockup-kei" src="../dist/images/cases/kei/item-4.jpg" alt="Keiarte - Mockup">				
+					<img class="img-mockup-kei" src="dist/images/cases/kei/item-4.jpg" alt="Keiarte - Mockup">				
 				</div>
 				<div class="case-mockup-kei-col col-sm-6">
-					<img class="img-mockup-kei" src="../dist/images/cases/kei/item-5.jpg" alt="Keiarte - Mockup">				
+					<img class="img-mockup-kei" src="dist/images/cases/kei/item-5.jpg" alt="Keiarte - Mockup">				
 				</div>
 			</div>
 		</div>
@@ -108,8 +108,8 @@
 
 	</section>
 
-	<?php include '../includes/footer.php'; ?>
+	<?php include 'includes/footer.php'; ?>
 
-	<script src="../dist/js/main.js"></script>
+	<script src="dist/js/main.js"></script>
 </body>
 </html>

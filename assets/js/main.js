@@ -96,7 +96,10 @@ UNIQ.ui.scrollTo = (function() {
 
 	function _clickHandler(event) {
 		var id = $(this).attr('href');
-		var scroll = $(id).offset().top;
+		id = id.split('#')[1];
+
+		console.log(id);
+		var scroll = $('#' + id).offset().top;
 
 		$('html,body').animate({
         	scrollTop: scroll

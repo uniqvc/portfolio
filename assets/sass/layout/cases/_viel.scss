@@ -1,0 +1,59 @@
+.main-viel {
+
+	.main-img {
+		@include size(100%);
+		background: url('../images/cases/viel/bg-main.jpg');
+		position: absolute;
+		left: 0;
+		background-size: cover;
+		top: 0;
+	}
+
+}
+
+.case-viel-secondary {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #0197a4;
+}
+
+.case-preview-filmecon {
+	background: url('../images/preview-filmecon.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.case-block-viel .case-block-item-inner {
+	white-space: normal;
+
+	.text-xlarge {
+		display: block;
+		padding: 80px;
+	}
+
+	> span {
+		background:#255080;
+	}
+
+}
+
+.cover-img-viel-1 {
+	background: url('../images/cases/viel/item-2.jpg');
+	height: 625px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.cover-img-viel-2 {
+	background: url('../images/cases/viel/item-3.jpg');
+	height: 745px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.cover-img-viel-3 {
+	background: url('../images/cases/viel/item-4.jpg');
+	height: 1140px;
+	background-size: cover;
+	background-position: center center;
+}

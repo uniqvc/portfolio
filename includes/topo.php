@@ -10,7 +10,7 @@
 
 
 <div class="header container-padding" >
-	<a data-scrollto href="#main" class="header-logo">
+	<a data-scrollto href="home" class="header-logo">
 		<svg viewBox="0 0 369 369" enable-background="new 0 0 369 369">
 			<path d="M214.3,20.7V3c0-1.7-1.3-3-3-3h-84.2c-1.7,0-3,1.3-3,3v16.9c0,1.7,1.3,3,3,3c9.5,0.2,17.6,1.5,24.7,3.5
 			c1.6,0.4,2.9,2.2,2.9,3.9v239.9c0,35.7-18.1,64.7-52.5,64.7c-34.5,0-52.5-29-52.5-64.7V3c0-1.7-1.3-3-3-3H3C1.3,0,0,1.3,0,3v268.2
@@ -26,10 +26,10 @@
 	<nav class="menu">
 		<div class="menu-inner">
 			<ul class="menu-links list-unstyled">
-				<li class="menu-links-item"><a data-scrollto href="#uniq">A Uniq</a></li>
-				<li class="menu-links-item"><a data-scrollto href="#nossosServicos">Nossos serviços</a></li>
-				<!-- <li class="menu-links-item"><a data-scrollto href="#cases">Cases</a></li> -->
-				<li class="menu-links-item"><a data-scrollto href="#contato">Contato</a></li>
+				<li class="menu-links-item"><a data-scrollto href="home#uniq">A Uniq</a></li>
+				<li class="menu-links-item"><a data-scrollto href="home#nossosServicos">Nossos serviços</a></li>
+				<li class="menu-links-item"><a data-scrollto href="home#cases">Cases</a></li>
+				<li class="menu-links-item"><a data-scrollto href="home#contato">Contato</a></li>
 			</ul>
 		</div>
 	</nav>

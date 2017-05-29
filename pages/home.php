@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<?php include '../includes/head.php'; ?>
+<?php include 'includes/head.php'; ?>
 
 <body class="header-white">
-	<?php include '../includes/topo.php'; ?>
+	<?php include 'includes/topo.php'; ?>
 	
 	<main id="main" class="main main-home container-padding" data-header-white>
 		<div class="main-container">
-			<video poster="../dist/images/poster.jpg" class="main-video" src="../dist/videos/home.mp4" autoplay="autoplay" loop></video>
+			<video poster="dist/images/poster.jpg" class="main-video" src="dist/videos/home.mp4" autoplay="autoplay" loop></video>
 			<div class="main-title">
 				<h1 class="text-inverse text-serif">Be Uniq</h1>
 				<p class="main-title-description text-sans-serif">Faça o que você ama</p>
@@ -30,17 +30,17 @@
 		<h2 class="h2 text-uppercase">A Equipe</h2>
 		<div class="row">
 			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
-				<img src="../dist/images/ricki-sahara.jpg" alt="Rick Sahara">
+				<img src="dist/images/ricki-sahara.jpg" alt="Rick Sahara">
 				<h3 class="h3 text-serif">Ricki Sahara</h3>
 				<p class="text-large">Entusiasta pelas artes, aficionado por tecnologia e apaixonado por inovação.</p>
 			</div>
 			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
-				<img src="../dist/images/erick-sahara.jpg" alt="Erick Sahara">
+				<img src="dist/images/erick-sahara.jpg" alt="Erick Sahara">
 				<h3 class="h3 text-serif">Erick Sahara</h3>
 				<p class="text-large">Aventureiro por natureza, valoriza a simplicidade, mas não o simplismo. Interesse por áreas relacionadas à Interação humano-computador e Filosofia.</p>
 			</div>
 			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
-				<img src="../dist/images/fernando-siebra.jpg" alt="Fernando Siebra">
+				<img src="dist/images/fernando-siebra.jpg" alt="Fernando Siebra">
 				<h3 class="h3 text-serif">Fernando Siebra</h3>
 				<p class="text-large">Às vezes sucinto e as vezes profundo, frazino de raiz nordestina, adora um papo cabeça, tecnologia, política e economia.</p>
 			</div>
@@ -97,12 +97,12 @@
 					<strong>.01<br>KEI</strong>
 					Website
 				</h4>
-				<a href="http://keiarte.com.br/" target="_blank">
+				<a href="kei">
 					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136">
 						<polygon fill="#FFFFFF" points="68.5,136 67.5,136 67.5,68.5 0,68.5 0,67.5 67.5,67.5 67.5,0 68.5,0 68.5,67.5 136,67.5 136,68.5 68.5,68.5"/>
 					</svg>
 					<span></span>
-					<img src="../dist/images/case-espaco-kei.jpg" alt="Espaço Kei">
+					<img src="dist/images/case-espaco-kei.jpg" alt="Espaço Kei">
 				</a>
 			</li>
 			<li>
@@ -110,12 +110,12 @@
 					<strong>.02<br>Carol Monteiro</strong>
 					Website
 				</h4>
-				<a href="http://carolmonteirofotografias.com.br/" target="_blank">
+				<a href="carol-monteiro">
 					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136" xml:space="preserve">
 						<path stroke="#FFFFFF" stroke-miterlimit="10" d="M68,0v136 M136,68H0"/>
 					</svg>
 					<span></span>
-					<img src="../dist/images/case-carol-monteiro.jpg" alt="Carol Monteiro">
+					<img src="dist/images/case-carol-monteiro.jpg" alt="Carol Monteiro">
 				</a>
 			</li>
 			<li>
@@ -123,12 +123,12 @@
 					<strong>.03<br>Viel</strong>
 					Website
 				</h4>
-				<a href="http://vielodontologia.com.br/" target="_blank">
+				<a href="viel">
 					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136" xml:space="preserve">
 						<path stroke="#FFFFFF" stroke-miterlimit="10" d="M68,0v136 M136,68H0"/>
 					</svg>
 					<span></span>
-					<img src="../dist/images/case-viel.jpg" alt="Viel Odontologia">
+					<img src="dist/images/case-viel.jpg" alt="Viel Odontologia">
 				</a>
 			</li>
 			<li>
@@ -136,19 +136,19 @@
 					<strong>.04<br>FILMECON</strong>
 					Hotsite
 				</h4>
-				<a href="http://filmecon.com.br/" target="_blank">
+				<a href="filmecon">
 					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136" xml:space="preserve">
 						<path stroke="#FFFFFF" stroke-miterlimit="10" d="M68,0v136 M136,68H0"/>
 					</svg>
 					<span></span>
-					<img src="../dist/images/case-filmecon.jpg" alt="Filmecon">
+					<img src="dist/images/case-filmecon.jpg" alt="Filmecon">
 				</a>
 			</li>
 		</ul>
 	</section>
 
-	<?php include '../includes/footer.php'; ?>
+	<?php include 'includes/footer.php'; ?>
 
-	<script src="../dist/js/main.js"></script>
+	<script src="dist/js/main.js"></script>
 </body>
 </html>

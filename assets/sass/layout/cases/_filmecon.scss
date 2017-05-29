@@ -1,0 +1,73 @@
+.main-filmecon {
+
+	.main-img {
+		@include size(100%);
+		background: url('../images/cases/filmecon/bg-main.jpg');
+		position: absolute;
+		left: 0;
+		background-size: cover;
+		top: 0;
+	}
+
+}
+
+.cover-img-filmecon-1 {
+	background: url('../images/cases/filmecon/item-1.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.cover-img-filmecon-2 {
+	background: url('../images/cases/filmecon/item-2.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.cover-img-filmecon-3 {
+	background: url('../images/cases/filmecon/item-4.jpg');
+	height: 420px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.cover-img-filmecon-4 {
+	background: url('../images/cases/filmecon/item-5.jpg');
+	height: 420px;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.case-block-filmecon {
+	background: #faa324;
+
+	&-text {
+		@include transform(translateY(-50%));
+		padding-left: 720px;
+		position: relative;
+		top: 135px;
+	}
+
+	&:after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+
+	> img {
+		float: left;
+	}
+
+}
+
+.case-block-filmecon-text {
+
+}
+
+.case-preview-kei {
+	background: url('../images/preview-kei.jpg');
+	background-size: cover;
+	background-position: center center;
+}
