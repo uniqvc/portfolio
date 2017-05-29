@@ -169,7 +169,7 @@ UNIQ.ui.slider = (function() {
 UNIQ.ui.scrollHeader.init();
 UNIQ.ui.scrollTo.init();
 UNIQ.ui.slider.init();
-
+UNIQ.ui.contact();
 
 
 // $('.scroll-to').on('click', function(e) {
