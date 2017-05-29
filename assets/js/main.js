@@ -117,8 +117,57 @@ UNIQ.ui.scrollTo = (function() {
 	};
 }());
 
+UNIQ.ui.slider = (function() {
+	var step;
+	function init()
+	{
+
+		if( $(".carousel-wrapper").length == 0 )
+		{
+			return;
+		}
+		$('.carousel-bullets').html('');
+		var count = $(".carousel-wrapper div > div").length;
+		for ( var i = 0; i < count ; i++ )
+		{
+			$(".carousel-bullets").append('<a href="#" class="item" data-index="'+i+'"></a>');
+		}
+		$(".carousel-bullets a").first().addClass('is-active');
+		$(".carousel-bullets a").on('click',to);
+
+		step = (100/count);
+		$(".carousel-wrapper > div").css("window", (count*100) + '%' );
+		$(".carousel-wrapper > div > div").css("width" , (100/count) + '%' );
+	}
+
+	function to()
+	{
+		var index = $(this).data("index");
+		var margin = 100 * index;
+		margin = '-' + margin + '%';
+		//$(".carousel-carol-monteiro").css('marginLeft', margin);
+
+		$(".carousel-carol-monteiro").animate({
+			'marginLeft' : margin
+		},500);
+
+
+		$(".carousel-bullets .is-active").removeClass("is-active");
+		$(".carousel-bullets a").eq(index).addClass('is-active');
+		return false;
+	}
+
+	return {
+		init: init
+	};
+}());
+ 
+
 UNIQ.ui.scrollHeader.init();
 UNIQ.ui.scrollTo.init();
+UNIQ.ui.slider.init();
+
+
 
 // $('.scroll-to').on('click', function(e) {
 // 	var id = $(this).attr('data-id');
