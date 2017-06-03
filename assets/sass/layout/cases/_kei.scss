@@ -22,7 +22,7 @@
 	}
 
 	.case-gif-item:nth-child(2) {
-		background: #D7BCBD;
+		background: #CEBBBB;
 	}
 
 }
@@ -33,7 +33,10 @@
 
 .case-mockup-kei {
 	padding: 120px 0;
-	background:#F6DCDC;
+	background:#F6DCDD;
+	background-image: url('../images/cases/kei/mockup-1.jpg'), url('../images/cases/kei/mockup-2.jpg');
+	background-position: center top, center 2250px;
+	background-repeat: no-repeat, no-repeat;
 }
 
 .img-mockup-kei {

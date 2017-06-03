@@ -7,7 +7,7 @@
 	
 	<main id="main" class="main main-case main-kei container-padding" data-header-white>
 		<div class="main-container">
-			<div class="main-img"></div>
+			<video class="main-video" src="dist/videos/cases/kei.mp4" autoplay="autoplay" loop></video>
 			<div class="main-title">
 				<h1 class="text-inverse text-serif">Transformar em algo concreto</h1>
 				<p class="main-title-description text-sans-serif">Keiarte. Site oficial</p>
@@ -25,7 +25,7 @@
 					</p>
 					<ul class="case-detail list-unstyled">
 						<li class="case-detail-item text-sans-serif"><span class="case-detail-item-desc">Cliente</span>Kei Espaço de Arte</li>
-						<li class="case-detail-item text-sans-serif"><span class="case-detail-item-desc">Produtos</span>Concepção, design de interface, UI/UX, design responsivo, desenvolvimento web.</li>
+						<li class="case-detail-item text-sans-serif"><span class="case-detail-item-desc">Produtos</span>Marketing Digital, concepção, design de interface, UI/UX, design responsivo, desenvolvimento web.</li>
 					</ul>
 				</div>
 			</div>
@@ -90,7 +90,7 @@
 			</div>
 		</div>
 
-		<a href="#" class="case-preview case-preview-carol-monteiro container-padding">
+		<a href="carol-monteiro" class="case-preview case-preview-carol-monteiro container-padding">
 			<h3 class="case-preview-label h2 text-uppercase text-inverse">
 				Próximo projeto
 

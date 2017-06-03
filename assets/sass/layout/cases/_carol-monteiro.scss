@@ -19,17 +19,19 @@
 
 .case-carol-monteiro-carousel {
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 90px;
 	background: #ededed;
 }
 
 .carousel-wrapper {
 	width: 100%;
 	overflow: hidden;
+	position: relative;
 }
 
 .carousel-carol-monteiro {
 	width: 500%;
+	padding-bottom: 50px;
 
 	&:after {
 		content: '';
@@ -41,6 +43,11 @@
 		width: 20%;
 		float: left;
 		text-align: center;
+
+		> img {
+			max-width: 90%;
+		}
+
 	}
 
 }
@@ -51,6 +58,7 @@
 	height : 26px;
 
 	> .item {
+		@include transition(0.25s ease-out);
 		@include size(8px);
 		@include border-radius(8px);
 		background: #000;
@@ -58,10 +66,9 @@
 		margin: 0 10px;
 		vertical-align: middle;
 		position: relative;
-		transition: .25s ease;	
 
 		&.is-active {
-			@include size(24px);
+			@include transform(scale(3))
 			@include border-radius(24px);
 		}
 

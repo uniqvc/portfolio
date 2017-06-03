@@ -152,7 +152,7 @@ UNIQ.ui.slider = (function() {
 
 		$(".carousel-carol-monteiro").animate({
 			'marginLeft' : margin
-		},500);
+		},650, 'easeOutExpo');
 
 
 		$(".carousel-bullets .is-active").removeClass("is-active");

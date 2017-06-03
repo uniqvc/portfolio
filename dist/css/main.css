@@ -3506,6 +3506,9 @@ body.menu-opened .menu-hamburger-line {
 .equipe-item {
   padding-right: 5%; }
 
+.row-servicos {
+  max-width: 1200px; }
+
 .section-servicos {
   padding-top: 20px;
   padding-bottom: 120px; }
@@ -3803,14 +3806,17 @@ body.menu-opened .menu-hamburger-line {
   .case-gif-kei .case-gif-item:nth-child(1) {
     background: #F6D3D4; }
   .case-gif-kei .case-gif-item:nth-child(2) {
-    background: #D7BCBD; }
+    background: #CEBBBB; }
 
 .case-block-kei {
   margin-top: 70px; }
 
 .case-mockup-kei {
   padding: 120px 0;
-  background: #F6DCDC; }
+  background: #F6DCDD;
+  background-image: url("../images/cases/kei/mockup-1.jpg"), url("../images/cases/kei/mockup-2.jpg");
+  background-position: center top, center 2250px;
+  background-repeat: no-repeat, no-repeat; }
 
 .img-mockup-kei {
   -webkit-box-shadow: 8px 7px 25px 2px rgba(0, 0, 0, 0.3);
@@ -3839,15 +3845,17 @@ body.menu-opened .menu-hamburger-line {
 
 .case-carol-monteiro-carousel {
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
   background: #ededed; }
 
 .carousel-wrapper {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
 
 .carousel-carol-monteiro {
-  width: 500%; }
+  width: 500%;
+  padding-bottom: 50px; }
   .carousel-carol-monteiro:after {
     content: '';
     display: table;
@@ -3856,11 +3864,16 @@ body.menu-opened .menu-hamburger-line {
     width: 20%;
     float: left;
     text-align: center; }
+    .carousel-carol-monteiro > .carousel-carol-monteiro-item > img {
+      max-width: 90%; }
 
 .carousel-bullets {
   text-align: center;
   height: 26px; }
   .carousel-bullets > .item {
+    -webkit-transition: 0.25s ease-out;
+    -o-transition: 0.25s ease-out;
+    transition: 0.25s ease-out;
     width: 8px;
     height: 8px;
     -webkit-border-radius: 8px;
@@ -3871,11 +3884,12 @@ body.menu-opened .menu-hamburger-line {
     display: inline-block;
     margin: 0 10px;
     vertical-align: middle;
-    position: relative;
-    transition: .25s ease; }
+    position: relative; }
     .carousel-bullets > .item.is-active {
-      width: 24px;
-      height: 24px;
+      -webkit-transform: scale(3);
+      -moz-transform: scale(3);
+      -o-transform: scale(3);
+      transform: scale(3);
       -webkit-border-radius: 24px;
       -moz-border-radius: 24px;
       -ms-border-radius: 24px;

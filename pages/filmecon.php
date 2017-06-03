@@ -7,7 +7,7 @@
 	
 	<main id="main" class="main main-case main-filmecon container-padding" data-header-white>
 		<div class="main-container">
-			<div class="main-img"></div>
+			<video class="main-video" src="dist/videos/cases/filmecon.mp4" autoplay="autoplay" loop></video>
 			<div class="main-title">
 				<h1 class="text-inverse text-serif">Conferência Audiovisual</h1>
 				<p class="main-title-description text-sans-serif">Filmecon. Hotsite</p>

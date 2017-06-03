@@ -18,9 +18,9 @@
 	<section id="uniq" class="section-default section-quem-somos container-padding">
 		<div class="row">
 			<div class="col-sm-8">
-				<p class="quem-somos-text">Somos uma agência digital, especializada em trazer soluções criativas para os nossos clientes com o objetivo de atingir suas metas e objetivos superando suas expectativas. Podemos ajudar através de consultoria, visão estratégica, web design, desenvolvimento, marketing digital e aplicações web.</p>
+				<p class="quem-somos-text">Somos uma agência digital especializada em trazer soluções criativas para os nossos clientes com o objetivo de atingir suas metas e objetivos superando suas expectativas. Podemos ajudar através de consultoria, visão estratégica, web design, desenvolvimento, marketing digital e aplicações web.</p>
 				<p class="quem-somos-text">
-					 Nosso compromisso com a excelência em tudo o que fazemos é um dos atributos para tornar cada projeto único. Nós adoraríamos ouvir sobre seus desafios e explicar as possibilidades. Podemos também tomar uma bela xícara de café então porque não nos ligar ou <a data-scrollto href="#contato" class="link-underlined">enviar uma mensagem?</a>
+					 Nosso compromisso com a excelência em tudo o que fazemos é um dos atributos para tornar cada projeto único. Nós adoraríamos ouvir sobre seus desafios e explicar as possibilidades. Podemos também tomar uma bela xícara de café, então, por que não nos ligar ou <a data-scrollto href="#contato" class="link-underlined">enviar uma mensagem?</a>
 				</p>
 			</div>
 		</div>
@@ -37,19 +37,28 @@
 			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
 				<img src="dist/images/erick-sahara.jpg" alt="Erick Sahara">
 				<h3 class="h3 text-serif">Erick Sahara</h3>
-				<p class="text-large">Aventureiro por natureza, valoriza a simplicidade, mas não o simplismo. Interesse por áreas relacionadas à Interação humano-computador e Filosofia.</p>
+				<p class="text-large">Aventureiro por natureza, valoriza a simplicidade, mas não o simplismo. Interesse por áreas relacionadas à interação humano-computador e filosofia.</p>
 			</div>
 			<div class="col-sm-4 col-md-4 col-lg-3 equipe-item">
 				<img src="dist/images/fernando-siebra.jpg" alt="Fernando Siebra">
 				<h3 class="h3 text-serif">Fernando Siebra</h3>
-				<p class="text-large">Às vezes sucinto e as vezes profundo, frazino de raiz nordestina, adora um papo cabeça, tecnologia, política e economia.</p>
+				<p class="text-large">Às vezes sucinto e às vezes profundo, franzino de raiz nordestina, adora um papo cabeça, tecnologia, política e economia.</p>
 			</div>
 		</div>
 	</section>
 
 	<section id="nossosServicos" class="section-default section-servicos container-padding">
 		<h2 class="h2 text-uppercase">Serviços</h2>
-		<div class="row">
+		<div class="row row-servicos">
+			<div class="servicos-item col-sm-6 col-md-3">
+				<h3 class="h3 text-serif">UX Design</h3>
+				<ul class="list-unstyled text-large">
+					<li>Pesquisa com usuários</li>
+					<li>Wireframe e protótipo</li>
+					<li>Fluxo de navegação</li>
+					<li>Teste de usabilidade</li>
+				</ul>
+			</div>
 			<div class="servicos-item col-sm-6 col-md-3">
 				<h3 class="h3 text-serif">Website</h3>
 				<ul class="list-unstyled text-large">
@@ -57,15 +66,6 @@
 					<li>Design responsivo</li>
 					<li>Desenv. Front-end</li>
 					<li>Desenv. Back-end</li>
-				</ul>
-			</div>
-			<div class="servicos-item col-sm-6 col-md-3">
-				<h3 class="h3 text-serif">Marketing</h3>
-				<ul class="list-unstyled text-large">
-					<li>Marketing Digital</li>
-					<li>Mídias sociais</li>
-					<li>Inbound marketing</li>
-					<li>Analytics</li>
 				</ul>
 			</div>
 			<div class="servicos-item col-sm-6 col-md-3">
@@ -77,12 +77,12 @@
 				</ul>
 			</div>
 			<div class="servicos-item col-sm-6 col-md-3">
-				<h3 class="h3 text-serif">UX Design</h3>
+				<h3 class="h3 text-serif">Marketing</h3>
 				<ul class="list-unstyled text-large">
-					<li>Pesquisa com usuários</li>
-					<li>Wireframe e protótipo</li>
-					<li>Fluxo de navegação</li>
-					<li>Teste de usabilidade</li>
+					<li>Marketing Digital</li>
+					<li>Mídias sociais</li>
+					<li>Inbound marketing</li>
+					<li>Analytics</li>
 				</ul>
 			</div>
 		</div>
@@ -95,7 +95,7 @@
 			<li>
 				<h4>
 					<strong>.01<br>KEI</strong>
-					Website
+					Website e Marketing Digital
 				</h4>
 				<a href="kei">
 					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136">
