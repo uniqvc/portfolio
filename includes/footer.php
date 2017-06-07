@@ -4,7 +4,7 @@
 		<div class="footer-telefone col-sm-4">
 			<h3 class="h2 text-inverse text-uppercase">Telefone</h3>
 			<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11991193047">11 99119-3047</a> - Ricki</p>
-			<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11994077776">11 994077776</a> - Erick</p>
+			<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11994077776">11 99407-7776</a> - Erick</p>
 			<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11947635258">11 94763-5258</a> - Fernando</p>
 		</div>
 		<div class="footer-mensagem col-sm-6">
