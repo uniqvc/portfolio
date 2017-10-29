@@ -10,7 +10,7 @@
 			<video class="main-video" src="dist/videos/cases/filmecon.mp4" autoplay="autoplay" loop></video>
 			<div class="main-title">
 				<h1 class="text-inverse text-serif">Conferência Audiovisual</h1>
-				<p class="main-title-description text-sans-serif">Filmecon. Hotsite</p>
+				<p class="main-title-description text-sans-serif">Filmecon 2015/2016. Hotsite</p>
 			</div>
 		</div>
 	</main>
@@ -28,8 +28,8 @@
 			</div>
 		</div>
 
-		<div class="cover-img cover-img-filmecon-1" role="img" aria-label="Filmecon"></div>
-		<div class="cover-img cover-img-filmecon-2" role="img" aria-label="Filmecon"></div>
+		<div class="cover-img cover-img-filmecon-1" role="img" data-header-white aria-label="Filmecon"></div>
+		<div class="cover-img cover-img-filmecon-2" role="img" data-header-white aria-label="Filmecon"></div>
 
 		<div class="case-block-filmecon">
 			<img src="dist/images/cases/filmecon/item-3.jpg" alt="Filmecon">
@@ -38,12 +38,12 @@
 			</div>
 		</div>
 
-		<div class="cover-img cover-img-filmecon-3" role="img" aria-label="Filmecon"></div>
-		<div class="cover-img cover-img-filmecon-4" role="img" aria-label="Filmecon"></div>
+		<div class="cover-img cover-img-filmecon-3" role="img" data-header-white aria-label="Filmecon"></div>
+		<div class="cover-img cover-img-filmecon-4" role="img" data-header-white aria-label="Filmecon"></div>
 		
 	</div>
 
-	<a href="kei" class="case-preview case-preview-kei container-padding">
+	<a href="anymotion" class="case-preview case-preview-anymotion container-padding">
 		<h3 class="case-preview-label h2 text-uppercase text-inverse">
 			Próximo projeto
 
@@ -54,8 +54,8 @@
 		</h3>
 
 		<div class="case-preview-info">
-			<h3 class="title text-inverse text-serif">Transformar algo em concreto</h3>
-			<p class="description text-sans-serif text-inverse">Keiarte. Site oficial</p>
+			<h3 class="title text-inverse text-serif">Motivar, desmistificar e inspirar</h3>
+			<p class="description text-sans-serif text-inverse">Anymotion. Website corporativo</p>
 		</div>
 	</a>
 

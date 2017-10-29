@@ -18,7 +18,7 @@
 	<section id="uniq" class="section-default section-quem-somos container-padding">
 		<div class="row">
 			<div class="col-sm-8">
-				<p class="quem-somos-text">Somos uma agência digital especializada em trazer soluções criativas para os nossos clientes com o objetivo de atingir suas metas e objetivos superando suas expectativas. Podemos ajudar através de consultoria, visão estratégica, web design, desenvolvimento, marketing digital e aplicações web.</p>
+				<p class="quem-somos-text">Somos uma agência digital especializada em trazer soluções criativas para nossos clientes, atingindo metas e objetivos, superando as expectativas. Podemos ajudar através de consultoria, visão estratégica, web design, desenvolvimento, marketing digital e aplicações web.</p>
 				<p class="quem-somos-text">
 					 Nosso compromisso com a excelência em tudo o que fazemos é um dos atributos para tornar cada projeto único. Nós adoraríamos ouvir sobre seus desafios e explicar as possibilidades. Podemos também tomar uma bela xícara de café, então, por que não nos ligar ou <a data-scrollto href="#contato" class="link-underlined">enviar uma mensagem?</a>
 				</p>
@@ -142,6 +142,32 @@
 					</svg>
 					<span></span>
 					<img src="dist/images/case-filmecon.jpg" alt="Filmecon">
+				</a>
+			</li>
+			<li style="visibility: hidden;" class="anymotion-case">
+				<h4>
+					<strong>.05<br>ANYMOTION</strong>
+					Hotsite
+				</h4>
+				<a href="anymotion">
+					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136" xml:space="preserve">
+						<path stroke="#FFFFFF" stroke-miterlimit="10" d="M68,0v136 M136,68H0"/>
+					</svg>
+					<span></span>
+					<img src="dist/images/case-anymotion.jpg" alt="Anymotion">
+				</a>
+			</li>
+			<li>
+				<h4>
+					<strong>.05<br>ANYMOTION</strong>
+					Hotsite
+				</h4>
+				<a href="anymotion">
+					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136" xml:space="preserve">
+						<path stroke="#FFFFFF" stroke-miterlimit="10" d="M68,0v136 M136,68H0"/>
+					</svg>
+					<span></span>
+					<img src="dist/images/case-anymotion.jpg" alt="Anymotion">
 				</a>
 			</li>
 		</ul>

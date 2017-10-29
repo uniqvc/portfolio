@@ -4,3 +4,5 @@ briefing/
 .sass-cache
 config.rb
 config.php
+dist/videos
+phpmailer/
