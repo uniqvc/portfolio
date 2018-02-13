@@ -1,0 +1,49 @@
+.container-padding-abrecon {
+	margin: 70px 0;
+}
+
+.cover-video-abrecon {
+	margin-bottom: -8px;
+}
+
+.case-block-abrecon {
+
+	.case-block-item {
+
+		&:after {
+			padding-bottom: 92%;
+		}
+
+	}
+
+}
+
+.case-mockup-abrecon {
+	padding: 120px 0;
+	background:#F6DCDD;
+	background-image: url('../images/cases/abrecon/mockup-1.jpg'), url('../images/cases/abrecon/mockup-2.jpg');
+	background-position: center top, center 2250px;
+	background-repeat: no-repeat, no-repeat;
+}
+
+.img-mockup-abrecon {
+	@include box-shadow(8px 7px 25px 2px rgba(0, 0, 0, 0.3));
+
+	&.destaque {
+		margin-bottom: 60px;
+	}
+
+}
+
+.case-preview-carol-monteiro {
+	background: url('../images/preview-carol-monteiro.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.case-preview-abrecon {
+	background: url('../images/preview-abrecon.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+

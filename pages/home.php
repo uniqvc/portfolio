@@ -144,7 +144,7 @@
 					<img src="dist/images/case-filmecon.jpg" alt="Filmecon">
 				</a>
 			</li>
-			<li style="visibility: hidden;" class="anymotion-case">
+			<li class="anymotion-case">
 				<h4>
 					<strong>.05<br>ANYMOTION</strong>
 					Hotsite
@@ -159,15 +159,15 @@
 			</li>
 			<li>
 				<h4>
-					<strong>.05<br>ANYMOTION</strong>
-					Hotsite
+					<strong>.06<br>ABRECON</strong>
+					Website
 				</h4>
-				<a href="anymotion">
+				<a href="abrecon">
 					<svg viewBox="0 0 136 136" enable-background="new 0 0 136 136" xml:space="preserve">
 						<path stroke="#FFFFFF" stroke-miterlimit="10" d="M68,0v136 M136,68H0"/>
 					</svg>
 					<span></span>
-					<img src="dist/images/case-anymotion.jpg" alt="Anymotion">
+					<img src="dist/images/case-abrecon.jpg" alt="Abrecon">
 				</a>
 			</li>
 		</ul>

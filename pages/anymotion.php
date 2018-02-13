@@ -43,7 +43,7 @@
 		<div class="cover-img cover-img-anymotion-3" role="img" data-header-white aria-label="Anymotion"></div>
 
 
-		<a href="kei" class="case-preview case-preview-kei container-padding">
+		<a href="abrecon" class="case-preview case-preview-abrecon container-padding">
 			<h3 class="case-preview-label h2 text-uppercase text-inverse">
 				Próximo projeto
 
@@ -54,8 +54,8 @@
 			</h3>
 
 			<div class="case-preview-info">
-				<h3 class="title text-inverse text-serif">Transformar algo em concreto</h3>
-				<p class="description text-sans-serif text-inverse">Keiarte. Site oficial</p>
+				<h3 class="title text-inverse text-serif">Sistema de Geolocalização</h3>
+				<p class="description text-sans-serif text-inverse">Abrecon. Sistema de localização de empreendimentos</p>
 			</div>
 		</a>
 
