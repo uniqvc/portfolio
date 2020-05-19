@@ -41,7 +41,7 @@
 	$mg = Mailgun::create(MAILGUN_API_KEY); // For US servers
 	$domain = MAILGUN_DOMAIN;
 	
-	$mg->messages()->sendMime($domain, [
+	$mg->messages()->send($domain, [
 		'from'	=> 'Visitante <mailgun@sandboxca47f7d1554243fc96f8b4bc19eb28c0.mailgun.org>',
 		'to'	=> 'fernandosiebra@gmail.com',
 		'subject' => 'Contato Site Uniq',
