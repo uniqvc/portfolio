@@ -5,4 +5,5 @@ briefing/
 config.rb
 config.php
 dist/videos
-phpmailer/
+vendor/
+
