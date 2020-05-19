@@ -30,9 +30,9 @@
 
 	
 	$html = "
-		<h3>Mensagem enviada a partir do site</h3><br/>
-		<strong>E-mail:</strong> %s
-		<br/></br/>
+		Mensagem enviada a partir do site
+		E-mail: %s
+		
 		%s
 	";
 
@@ -41,15 +41,11 @@
 	$mg = Mailgun::create(MAILGUN_API_KEY); // For US servers
 	$domain = MAILGUN_DOMAIN;
 	
-	$mg->messages()->send($domain, [
+	$mg->messages()->sendMime($domain, [
 		'from'	=> 'Visitante <mailgun@sandboxca47f7d1554243fc96f8b4bc19eb28c0.mailgun.org>',
 		'to'	=> 'fernandosiebra@gmail.com',
 		'subject' => 'Contato Site Uniq',
-		'text'	=> $html
+		'text'	=> trim($html)
 	]);
-
-	$result = $mg->sendMessage($domain, array(
-		
-	));
 	
 	echo "Message sent!";
