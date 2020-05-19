@@ -29,12 +29,9 @@
 	$mensagem = isset($_POST['mensagem']) ? $_POST['mensagem'] : 'vazio';
 
 	
-	$html = "
-		Mensagem enviada a partir do site
-		E-mail: %s
-		
-		%s
-	";
+$html = "Enviado por e-mail: %s
+Mensagem:
+%s";
 
 	$html = sprintf($html,$email,$mensagem);
 
@@ -42,7 +39,7 @@
 	$domain = MAILGUN_DOMAIN;
 	
 	$mg->messages()->send($domain, [
-		'from'	=> 'Visitante <mailgun@sandboxca47f7d1554243fc96f8b4bc19eb28c0.mailgun.org>',
+		'from'	=> 'Visitante Site Uniq <mailgun@sandboxca47f7d1554243fc96f8b4bc19eb28c0.mailgun.org>',
 		'to'	=> 'fernandosiebra@gmail.com',
 		'subject' => 'Contato Site Uniq',
 		'text'	=> trim($html)
