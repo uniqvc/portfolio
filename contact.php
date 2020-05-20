@@ -40,7 +40,7 @@ Mensagem:
 	
 	$mg->messages()->send($domain, [
 		'from'	=> 'Visitante Site Uniq <mailgun@sandboxca47f7d1554243fc96f8b4bc19eb28c0.mailgun.org>',
-		'to'	=> 'fernandosiebra@gmail.com',
+		'to'	=> 'fernandosiebra@gmail.com; contato@uniq.vc',
 		'subject' => 'Contato Site Uniq',
 		'text'	=> trim($html)
 	]);
