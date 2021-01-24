@@ -3493,7 +3493,7 @@ body.menu-opened .menu-hamburger-line {
   padding-bottom: 100px; }
 
 .quem-somos-text {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.7;
   margin-bottom: 25px; }
 
@@ -3515,7 +3515,7 @@ body.menu-opened .menu-hamburger-line {
 
 .section-cases {
   padding-top: 40px;
-  padding-bottom: 125px; }
+  padding-bottom: 65px; }
 
 .main-case .main-title {
   vertical-align: bottom;
@@ -4226,3 +4226,61 @@ body.menu-opened .menu-hamburger-line {
     height: calc(100vw / 2); } }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/*# Ediçao direta no css, sem Sass */
+.clientes-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.clientes-list-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-telefone, .footer-endereco {
+  margin-bottom: 50px;
+}
+
+.footer-telefone .h2, .footer-endereco .h2 {
+  color: #B4B4B4;
+  margin-bottom: 15px;
+}
+
+.footer-socialmedia {
+  margin-bottom: 20px;
+}
+
+.footer-socialmedia > a {
+  margin: 0 15px 0 0;
+}
+
+.footer-socialmedia > a:hover path {
+  fill: #FFF;
+}
+
+.footer-direitos-autorais > small {
+  color: #B4B4B4;
+}
+
+@media (max-width: 767px) {
+
+  .section-clientes {
+    padding-bottom: 30px;
+  }
+
+  .clientes-list-item {
+    max-width: 150px;
+  }
+
+  .footer {
+    padding-bottom: 30px;
+  }
+
+  .footer-mensagem {
+    margin-bottom: 30px;
+  }
+}
+
