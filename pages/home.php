@@ -43,7 +43,7 @@
 				<img src="dist/images/fernando-siebra.jpg" alt="Fernando Siebra">
 				<h3 class="h3 text-serif">Fernando Siebra</h3>
 				<p class="text-large">
-					Formado em Análise de sistemas, 10 anos de experiência na área, apaixonado pelo impacto que a tecnologia e programação podem trazer aos negócios, de raiz nordestina, busco satisfação nas pequenas coisas e na vida simples.
+					Formado em Análise de sistemas, 10 anos de experiência na com programação, apaixonado pelo impacto que a tecnologia pode trazer aos negócios, de raiz nordestina, busco satisfação nas pequenas coisas e na vida simples.
 				</p>
 			</div>
 		</div>
