@@ -4265,6 +4265,23 @@ body.menu-opened .menu-hamburger-line {
   color: #B4B4B4;
 }
 
+.btn-whatsapp {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  background-color: #24CC63;
+  text-align: center;
+}
+
+.btn-whatsapp > svg {
+  position: relative;
+  top: 14px;
+  left: 1px;
+}
+
 @media (max-width: 767px) {
 
   .section-clientes {
@@ -4282,5 +4299,27 @@ body.menu-opened .menu-hamburger-line {
   .footer-mensagem {
     margin-bottom: 30px;
   }
+
+  .btn-whatsapp {
+    right: 15px;
+    bottom: 15px;
+  }
+
 }
 
+
+.btn-orcamento {
+  position: absolute;
+  right: 100px;
+  top: 28px;
+  border: solid 2px #FFF;
+}
+
+body:not(.header-white) .btn-orcamento {
+  color: #000;
+  border-color: #000;
+}
+
+.input-servico-interesse > option {
+  color: #000;
+}
