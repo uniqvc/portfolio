@@ -20,7 +20,7 @@
 		<div class="col-xs-12 col-sm-4">
 			<div class="footer-telefone">		
 				<h3 class="h2 text-inverse text-uppercase">Telefone</h3>
-				<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11990115724">11 99011-5724</a></p>
+				<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11991193047">11 99119-3047</a></p>
 			</div>
 			<div class="footer-endereco">
 				<h3 class="h2 text-inverse text-uppercase">Endereço</h3>
