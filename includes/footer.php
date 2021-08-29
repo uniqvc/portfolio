@@ -18,14 +18,14 @@
 			</form>
 		</div>
 		<div class="col-xs-12 col-sm-4">
-			<div class="footer-telefone">		
+			<!-- <div class="footer-telefone">		
 				<h3 class="h2 text-inverse text-uppercase">Telefone</h3>
 				<p class="footer-phone text-inverse"><a class="link-tel" href="tel:11991193047">11 99119-3047</a></p>
-			</div>
-			<div class="footer-endereco">
+			</div> -->
+			<!-- <div class="footer-endereco">
 				<h3 class="h2 text-inverse text-uppercase">Endereço</h3>
 				<p class="footer-phone text-inverse">Rua Maquerobi, 212 ap 6 - Saúde <br> São Paulo - SP</p>
-			</div>
+			</div> -->
 			<div class="footer-socialmedia">
 				<a href="https://www.instagram.com/uniq_digital/" target="_blank">
 				<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
